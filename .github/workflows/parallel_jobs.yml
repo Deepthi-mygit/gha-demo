@@ -1,6 +1,6 @@
 name: Hello Github Action
 on: 
-  push
+  push:
     branches: 
       - main
       - 'release/**'
