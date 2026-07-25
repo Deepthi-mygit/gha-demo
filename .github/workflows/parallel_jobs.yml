@@ -9,10 +9,11 @@ on:
       - main
 jobs: 
    build:
-     runs-on: ubuntu-latest
-     steps:
-      - name: Build Step
-        run: echo "a build demo for workflow"
+      runs-on: ubuntu-latest
+     
+      steps:
+        - name: Build Step
+          run: echo "a build demo for workflow"
   
      
        
